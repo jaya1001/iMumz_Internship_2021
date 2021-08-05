@@ -6,7 +6,9 @@ class DateTimeText extends StatelessWidget {
   final String date;
   final String startTime;
   final String endTime;
+  final bool isPregnancy;
   const DateTimeText({
+    this.isPregnancy = false,
     required this.date,
     required this.startTime,
     required this.endTime,
@@ -17,7 +19,10 @@ class DateTimeText extends StatelessWidget {
       children: [
         Text(
           date,
-          style: BrandStyles.paragraphStyleBold,
+          style: isPregnancy
+              ? BrandStyles.paragraphSmallStyle
+                  .copyWith(fontSize: 16, fontWeight: FontWeight.w500)
+              : BrandStyles.paragraphStyleBold,
         ),
         Padding(
           padding: const EdgeInsets.all(8.0),
@@ -33,11 +38,17 @@ class DateTimeText extends StatelessWidget {
         ),
         Text(
           '$startTime-',
-          style: BrandStyles.paragraphStyleBold,
+          style: isPregnancy
+              ? BrandStyles.paragraphSmallStyle
+                  .copyWith(fontSize: 16, fontWeight: FontWeight.w500)
+              : BrandStyles.paragraphStyleBold,
         ),
         Text(
           endTime,
-          style: BrandStyles.paragraphStyleBold,
+          style: isPregnancy
+              ? BrandStyles.paragraphSmallStyle
+                  .copyWith(fontSize: 16, fontWeight: FontWeight.w500)
+              : BrandStyles.paragraphStyleBold,
         ),
       ],
     );

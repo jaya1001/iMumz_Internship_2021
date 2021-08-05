@@ -43,7 +43,7 @@ class YogaCard extends StatelessWidget {
                     endTime: yogaClass.eventEndTime,
                   ),
                   Spacer(),
-                  ExclusiveTag(),
+                  yogaClass.isExclusive ? ExclusiveTag() : Container(),
                 ],
               ),
             ),

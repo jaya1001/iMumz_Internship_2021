@@ -21,13 +21,15 @@ class AuthorDetails extends StatelessWidget {
         Container(
           color: backgroundColor,
           padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-          child: Text(name,
-              style: BrandStyles.paragraphSmallStyle.copyWith(
-                fontSize: 14,
-              )),
+          child: Text(
+            name,
+            style: BrandStyles.paragraphSmallStyleBold.copyWith(
+              fontSize: 14,
+            ),
+          ),
         ),
         Padding(
-          padding: const EdgeInsets.only(left: 12),
+          padding: const EdgeInsets.only(left: 8),
           child: Text(
             description,
             style: BrandStyles.paragraphSmallStyle,

@@ -1,4 +1,5 @@
 import 'package:coding_task/constants/colors.dart';
+import 'package:coding_task/widgets/pregnancy_masterclass.dart';
 import 'package:coding_task/widgets/yoga_card.dart';
 import 'package:flutter/material.dart';
 
@@ -16,9 +17,12 @@ class MyApp extends StatelessWidget {
         backgroundColor: BrandColors.white,
         body: SafeArea(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               YogaCard(),
+              SizedBox(height: 16),
+              PregnancyMasterclassCard(),
             ],
           ),
         ),

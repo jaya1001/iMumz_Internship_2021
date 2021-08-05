@@ -29,3 +29,13 @@ final Masterclass yogaClass = Masterclass(
   authorDescription: 'Face Yoga Expert',
   isExclusive: true,
 );
+
+final Masterclass pregnancyClass = Masterclass(
+  title: 'Mindful Pregnancy Masterclass',
+  eventDate: '07 April',
+  eventStartTime: '4:30pm',
+  eventEndTime: '5:30pm',
+  author: 'Dr. Anita Mahajan',
+  authorDescription: 'Head- Gynaecologist',
+  isExclusive: true,
+);
