@@ -1,0 +1,11 @@
+1. Attach a pubspec.yaml file from one of your past flutter projects.
+A) Add file to "technical" folder
+
+2. What is your understanding of the term “State Management” when talking about Flutter App Development. Explain it in your own words.
+A) 
+So Flutter is a declarative framework meaning flutter's UI is based on something called "State". State is basically data on which our UI is dependent upon.
+For example let's say we have our traditional boilerplate counter app, so when we open this app we see the initial count to be "0". Once we hit the "+" button this count increases and the UI reflects the changes. So here count is our state on which the UI is dependent. The whole process of managing the count variable and telling flutter framework that "state is changed" is called "State Management".
+
+
+3. When/Where do you usually encounter bugs in your development process?
+A) Whenever i use something whose usage is not clear, and i force it somehow to fit in the situation, a lot of bugs arise from there. 
