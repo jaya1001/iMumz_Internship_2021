@@ -1,8 +1,18 @@
 1. How do you stay updated about topics in Flutter/Dart and active in the community? (Discord/Slack/MeetUps/Twitter)
-A) 
+A) I am active on Twitter, so there i follow a lot of GDEs and open source contributors of flutter (Pawan Kumar, Ayush Shekhar, Tadas Petra, Himanshu Sharma, Andrea Bizzotto to name a few)
+B) I actively participate and host rooms on flutter at clubhouse so there also i get to learn a lot about flutter.
 
 2. Your most used IDE/keyboard shortcuts when coding. (for Flutter/Dart)
-A) 
+A) My favourite IDE is VS Code
+and these are my 5 most used keyboard shortcuts
+1. shift+delete : to delete a line
+2. select text and alt+shift+arrow_up or arrow_down: to copy a paragraph up or down.
+3. win+v to check my cliboard history
+4. alt+arrow_up/arrow_down to move a line up or down
+5. i use extensions for code genration for flutter_bloc and flutter
 
 3. How do you approach responsiveness when coding an entire screen? (You can attach code snippet for better explanation).
-A) 
+A)
+Instead of hardcoding a value everywhere usually I use, `MediaQuery.of(context).size` to get size of screen and then i multiply it with some factor to get size close to design.
+
+I have also used packages like `flutter_screenutil` where I provide the dimensions of figma mockups and then use their functions to calculate size by providing values from design.
