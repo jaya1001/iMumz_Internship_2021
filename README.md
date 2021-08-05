@@ -1,6 +1,6 @@
-# Let's get Summer Ready!
+# Let's get Ready!
  👋🏽   Hey! You've been shortlisted for an internship opportunity at [iMumz](https://www.imumz.com/).
- Please read this file for instructions to your task, to be submitted by **Saturday, 24 April 2021**.
+ Please read this file for instructions to your task, to be submitted by **Thursday, 6 August 2021**.
 
 
 # What's next?
